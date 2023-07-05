@@ -1,0 +1,52 @@
+html, body, #root {
+   align-items: center;
+   display: flex;
+   flex-direction: column;
+   height: 100%;
+   margin: 0 auto;
+   padding: 0;
+   text-align: center;
+   width: 100%;
+}
+body {
+   background: url("../src/img/bg.jpg");
+   background-size: cover;
+   color: white;
+   height: 1200px;
+}
+#root {
+   background: linear-gradient(180deg, rgb(0 0 0 / 35%)45%, rgb(3 177 244 / 62%)145%);
+}
+
+
+/* font-family: 'Orbitron', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+
+/* responsive background */
+
+@media (min-width: 320px) {
+   body {
+      background-position: 48cm;
+   }
+}
+@media (min-width: 500px) {
+   body {
+      background-position: 50cm;
+   }
+}
+@media (min-width: 575px) {
+   body {
+      background-position: 55cm;
+   }
+}
+@media (min-width: 760px) {
+   body {
+      background-position: 60cm;
+   }
+}
+@media (min-width: 950px) {
+   body {
+      background-position: top;
+   }
+}
