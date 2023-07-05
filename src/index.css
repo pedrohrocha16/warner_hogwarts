@@ -14,7 +14,6 @@ body {
    background-repeat: no-repeat;
    background-position: right;
    color: white;
-   height: 1200px;
 }
 #root {
    background: linear-gradient(180deg, rgb(0 0 0 / 35%)45%, rgb(3 177 244 / 62%)145%);
