@@ -11,6 +11,8 @@ html, body, #root {
 body {
    background: url("../src/img/bg.jpg");
    background-size: cover;
+   background-repeat: no-repeat;
+   background-position: right;
    color: white;
    height: 1200px;
 }
@@ -21,32 +23,3 @@ body {
 
 /* font-family: 'Orbitron', sans-serif;
 font-family: 'Roboto', sans-serif; */
-
-
-/* responsive background */
-
-@media (min-width: 320px) {
-   body {
-      background-position: 48cm;
-   }
-}
-@media (min-width: 500px) {
-   body {
-      background-position: 50cm;
-   }
-}
-@media (min-width: 575px) {
-   body {
-      background-position: 55cm;
-   }
-}
-@media (min-width: 760px) {
-   body {
-      background-position: 60cm;
-   }
-}
-@media (min-width: 950px) {
-   body {
-      background-position: top;
-   }
-}
