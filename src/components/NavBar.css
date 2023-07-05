@@ -45,9 +45,6 @@
    transition: 0.5s;
    text-decoration: none;
 }
-.navbar-toggler {
-   box-shadow: none;
-}
 
 @media (min-width: 576px) {
    .nav_link{

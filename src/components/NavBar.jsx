@@ -15,7 +15,7 @@ function OffcanvasExample() {
         <Navbar key={expand} expand={expand} className="nav">
           <Container fluid>
             <Navbar.Brand><NavLink to='/'><img src={logo} alt="logo_hp" /></NavLink></Navbar.Brand>
-            <Navbar.Toggle  style={{border:"none"}} />
+            <Navbar.Toggle style={{border:"none", boxShadow:"none"}} />
             <Navbar.Offcanvas
               id={`offcanvasNavbar-expand-${expand}`}
               aria-labelledby={`offcanvasNavbarLabel-expand-${expand}`}
