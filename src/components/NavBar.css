@@ -3,7 +3,7 @@
    display: flex;
    justify-content: space-between;
    height: 100px;
-   width: 100vw;
+   width: 100%;
 }
 .container-fluid {
    background: 0px;
