@@ -1,0 +1,9 @@
+.errorPage button{
+   background-color: rgb(24, 148, 179);
+   border: 5px solid rgb(0, 195, 255);
+   border-radius: 25px;
+   color: rgb(37, 37, 37);
+   font-size: 18px;
+   font-weight: 700;
+   width: 100px;
+}
