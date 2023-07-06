@@ -6,16 +6,14 @@ export const useFetch = (url) => {
    const [loader, setLoader] = useState(false)
 
    useEffect(() => {
-      async function fetchData() {
-
+      async function fetchdata() {
          const res = await fetch(url)
 
          const json = await res.json()
 
          setData(json)
       }
-
-         fetchData()
+      fetchdata()
    }, [url])
 
    return {data}

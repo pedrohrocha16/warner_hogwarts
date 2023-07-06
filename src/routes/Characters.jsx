@@ -5,11 +5,13 @@ import Card from '../components/Card'
 
 
 const Characters = () => {
-  const url = "https://hp-api.onrender.com/api/characters"
+  const url = "https://hp-api.onrender.com/api/characters/"
 
   const {data: personagens} = useFetch(url)
 
-  const newArray = personagens.slice(0,25)
+ const newArray = personagens.slice(0,25)
+
+  console.log(newArray)
 
   return (
     <div className='characters'>
