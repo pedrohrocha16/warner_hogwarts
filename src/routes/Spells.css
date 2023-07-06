@@ -1,17 +1,17 @@
-.cards_spells {
-   display: flex;
-   flex-direction: column;
-   justify-items: center;
-   margin: 0;
-   padding: 0;
-}
 .spells {
    align-items: center;
    display: flex;
    flex-direction: column;
-   justify-content: center;
    height: 100%;
    width: 100%;
+}
+.cards_spells {
+   align-items: center;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   margin: 0;
+   padding: 0;
 }
 .spells_height {
    display: flex;

@@ -6,16 +6,17 @@ import './index.css'
 
 import {createHashRouter, RouterProvider} from 'react-router-dom'
 
-import Home from './pages/Home.jsx'
-import Characters from './pages/Characters.jsx'
-import Spells from './pages/Spells.jsx'
-import Houses from './pages/Houses.jsx'
-import ErrorPage from './pages/ErrorPage.jsx'
+import Home from './routes/Home.jsx'
+import Characters from './routes/Characters.jsx'
+import Spells from './routes/Spells.jsx'
+import Houses from './routes/Houses.jsx'
+import ErrorPage from './routes/ErrorPage.jsx'
 
 const router = createHashRouter([
   {
     path:'/',
     element:<App />,
+    errorElement:<ErrorPage />,
     children: [
       {
         path:'/',
@@ -32,10 +33,6 @@ const router = createHashRouter([
       {
         path:'houses',
         element:<Houses />
-      },
-      {
-        path:'*',
-        element:<ErrorPage />
       }
     ]
   }
