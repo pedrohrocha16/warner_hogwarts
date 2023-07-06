@@ -6,16 +6,15 @@ export const useFetch = (url) => {
    const [removeLoader, setRemoveLoader] = useState(false) //false porque ele sempre inicia
 
    useEffect(() => {
-      async function fetchdata() {
-            const res = await fetch(url)
-   
-            const json = await res.json()
-   
-            setData(json)
-            setRemoveLoader(true)
-         }
-            fetchdata()
+      setRemoveLoader(true)
+      async function fetchData(){
+         const res = await fetch(url)
+         const json = await res.json()
+         
+         setData(json)
+      }
+      fetchData()
    }, [url])
-
+   
    return {data, removeLoader}
 }

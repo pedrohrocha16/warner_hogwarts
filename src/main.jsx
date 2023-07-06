@@ -4,7 +4,7 @@ import App from './App.jsx'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css'
 
-import {createBrowserRouter, RouterProvider} from 'react-router-dom'
+import {createHashRouter, RouterProvider} from 'react-router-dom'
 
 import Home from './pages/Home.jsx'
 import Characters from './pages/Characters.jsx'
@@ -12,7 +12,7 @@ import Spells from './pages/Spells.jsx'
 import Houses from './pages/Houses.jsx'
 import ErrorPage from './pages/ErrorPage.jsx'
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path:'/',
     element:<App />,
@@ -22,15 +22,15 @@ const router = createBrowserRouter([
         element:<Home />
       },
       {
-        path:'/characters',
+        path:'characters',
         element:<Characters />
       },
       {
-        path:'/spells',
+        path:'spells',
         element:<Spells />
       },
       {
-        path:'/houses',
+        path:'houses',
         element:<Houses />
       },
       {

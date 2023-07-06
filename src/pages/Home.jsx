@@ -1,12 +1,9 @@
 import { useState } from 'react'
 import './Home.css'
 import Card from '../components/Card'
-import { useFetch } from '../hooks/useFetch'
-import Loader from '../components/Loader'
+
 
 const Home = () => {
-
-  const {removeLoader} = useFetch()
 
   const [movie, setMovie] = useState([
     {id:1, name:"Harry Potter and the Sorcerer's Stone", year:2001, image:"./1.jpg"},

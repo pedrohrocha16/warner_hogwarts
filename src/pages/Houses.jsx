@@ -1,6 +1,3 @@
-import './Houses.css'
-
-
 const Houses = () => {
 
   return (

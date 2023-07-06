@@ -1,4 +1,3 @@
-import Loader from '../components/Loader'
 import './ErrorPage.css'
 import {useNavigate} from 'react-router-dom'
 
