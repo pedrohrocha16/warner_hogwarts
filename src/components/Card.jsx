@@ -4,7 +4,7 @@ import Card from 'react-bootstrap/Card';
 
 function BasicExample({img, movie_title, movie_desc}) {
   return (
-    <Card className='card'>
+    <Card>
       <Card.Img variant="top" src={img} />
       <Card.Body>
         <Card.Title style={{color:"#fff900", fontFamily:"Orbitron, sans-serif", fontSize:"18px"}}>{movie_title}</Card.Title>
