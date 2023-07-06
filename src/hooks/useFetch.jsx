@@ -7,14 +7,14 @@ export const useFetch = (url) => {
 
    useEffect(() => {
       async function fetchdata() {
-         const res = await fetch(url)
-
-         const json = await res.json()
-
-         setData(json)
-         setRemoveLoader(true)
-      }
-      fetchdata()
+            const res = await fetch(url)
+   
+            const json = await res.json()
+   
+            setData(json)
+            setRemoveLoader(true)
+         }
+            fetchdata()
    }, [url])
 
    return {data, removeLoader}
