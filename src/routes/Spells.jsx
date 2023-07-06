@@ -10,7 +10,7 @@ const Spells = () => {
   const {data: spells, removeLoader}= useFetch(url)
 
   return (
-    <div className='spells'>
+    <>
       <h1>Spells...</h1>
         <ul className='cards_spells'>
           {spells && spells.map((spell) => (
@@ -23,7 +23,7 @@ const Spells = () => {
           ))}
           {!removeLoader && <Loader />}
         </ul>
-    </div>
+    </>
   )
 }
 

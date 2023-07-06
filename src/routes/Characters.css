@@ -13,10 +13,7 @@
    height: 100%;
    width: 100%;
 }
-.home_page img {
-   border-radius: 10px;
-   width: 200px;
-}
+
 @media (min-width: 500px){
    .cards{
       display: grid;
