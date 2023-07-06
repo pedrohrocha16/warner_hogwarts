@@ -9,6 +9,8 @@ const Characters = () => {
 
   const {data, removeLoader} = useFetch(url)
 
+  console.log(data)
+
   return (
     <div className='characters'>
       <h1>Characters</h1>
@@ -17,7 +19,9 @@ const Characters = () => {
             <div key={person.id}>
               <Card
                 img={person.image}
-                movie_title={person.name}  
+                movie_title={person.name}
+                movie_desc={person.actor}  
+                movie_desc2={person.dateOfBirth}  
               />
             </div>
          ))}

@@ -8,10 +8,9 @@
 }
 .spells_height {
    display: flex;
-   height: 250px;
    flex-direction: column;
+   height: 200px;
    justify-content: center;
-   margin-bottom: 3rem;
 }
 @media (min-width: 500px){
    .cards_spells{
