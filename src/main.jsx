@@ -9,7 +9,6 @@ import {createHashRouter, RouterProvider} from 'react-router-dom'
 import Home from './routes/Home.jsx'
 import Characters from './routes/Characters.jsx'
 import Spells from './routes/Spells.jsx'
-import Houses from './routes/Houses.jsx'
 import ErrorPage from './routes/ErrorPage.jsx'
 
 const router = createHashRouter([
@@ -29,10 +28,6 @@ const router = createHashRouter([
       {
         path:'spells',
         element:<Spells />
-      },
-      {
-        path:'houses',
-        element:<Houses />
       }
     ]
   }

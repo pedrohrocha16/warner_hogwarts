@@ -9,7 +9,7 @@ export const useFetch = (url) => {
       setTimeout(() => {
          async function fetchData(){
             
-            const res = await fetch(url)
+            const res = await fetch("https://hp-api.onrender.com/api/characters")
             const json = await res.json()
             
             setData(json)

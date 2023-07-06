@@ -29,7 +29,6 @@ function OffcanvasExample() {
                   <NavLink to='/' className='nav_link'>Home</NavLink>
                   <NavLink to='/characters' className='nav_link'>Characters</NavLink>
                   <NavLink to='/spells' className='nav_link'>Spells</NavLink>
-                  <NavLink to='houses' className='nav_link'>Houses</NavLink>
                 </Nav>
               </Offcanvas.Body>
             </Navbar.Offcanvas>
