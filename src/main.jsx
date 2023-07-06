@@ -22,15 +22,15 @@ const router = createBrowserRouter([
         element:<Home />
       },
       {
-        path:'characters',
+        path:'/characters',
         element:<Characters />
       },
       {
-        path:'spells',
+        path:'/spells',
         element:<Spells />
       },
       {
-        path:'houses',
+        path:'/houses',
         element:<Houses />
       },
       {
